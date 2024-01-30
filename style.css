@@ -1,0 +1,112 @@
+/* Style the quiz container */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right,#88ff5feb, #7d2929);
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.quiz-container {
+    width: 60%;
+    text-align: center;
+    /* background-color: #fff; */
+    background: linear-gradient(to bottom right,#13b79f, #16e5ff);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+/* Style the question container */
+.question-container {
+    margin-bottom: 20px;
+}
+
+/* Style the question text */
+#question {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fcfcfc;
+    margin-bottom: 20px;
+}
+
+/* Style the options container */
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Style the option buttons */
+.opt {
+    width: 48%;
+    height: 60px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #3498db;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Style the option buttons when hovered */
+.opt:hover {
+    background-color: #416780;
+    transform: scale(1.05);
+}
+
+/* Style the option buttons when clicked */
+.opt:active {
+    background-color: #21618c;
+}
+
+/* Style the result container */
+.result-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the result text */
+#result {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the next button */
+#next-btn {
+    width: 200px;
+    height: 50px;
+    margin: 20px auto 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #2ecc71;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Style the next button when hovered */
+#next-btn:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
+}
+
+/* Style the next button when clicked */
+#next-btn:active {
+    background-color: #218c58;
+}
